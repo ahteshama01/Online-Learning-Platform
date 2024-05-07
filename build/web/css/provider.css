@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25-May-2023, 8:31:02 PM
+    Author     : frikky
+*/
+#previous-posts {
+            margin-right: 10px;
+        }
+
+#post-form {
+            margin: 0 auto;
+            max-width: 700px;
+      }
+
+#comments {
+            margin-left: 20px;
+        }
+input{
+            border: 1px solid red;
+        }
+input.valid{
+            border: 1px solid green;
+        }
+        #Validator{
+            
+        }
+        #errorMessage{
+            text-justify: auto;
+            background-color: danger;
+        }

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>index htmls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    </head>
+    <body>
+           <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand text-light" href="#">OLP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#aboutid">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#contactid">Contact Us</a>
+                            </li>
+                        </ul>
+             <form class="form-inline mx-auto my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+
+            <div class="row">
+                <div class="col-16">
+                    <!-- Button trigger modal -->
+            <div class="container">
+  <!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModal">Signup</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+          <h4 class="modal-title">OLP</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+          <h2 class="fw-bold mb-5">Register Here</h2>
+        <form>
+          <div class="mb-3">
+            <label for="firstNameInput" class="form-label">First name</label>
+            <input type="text" class="form-control" id="firstNameInput" placeholder="Enter first name" required>
+          </div>
+          <div class="mb-3">
+            <label for="lastNameInput" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastNameInput" placeholder="Enter last name" required>
+          </div>
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Enter email" required>
+          </div>
+          <div class="mb-3">
+            <label for="passwordInput" class="form-label">Password</label>
+            <input type="password" class="form-control" id="passwordInput" placeholder="Password" required>
+          </div>
+          <div class="mb-3">
+            <label for="dobInput" class="form-label">Date of birth</label>
+            <input type="date" class="form-control" id="dobInput" required>
+          </div>
+              <div class="mb-3">
+            <label for="genderInput" class="form-label">Gender:</label>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="maleRadio" value="male" required>
+              <label class="form-check-label" for="maleRadio">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="femaleRadio" value="female" required>
+              <label class="form-check-label" for="femaleRadio">Female</label>
+            </div>
+          <div class="mb-3">
+            <label for="qualificationInput" class="form-label">Highest Qualification:</label>
+            <select class="form-select" id="qualificationInput" required>
+              <option value="">Select qualification</option>
+              <option value="highschool">High School</option>
+              <option value="undergrad">Undergraduate</option>
+              <option value="graduate">Graduate</option>
+              <option value="postgrad">Postgraduate</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="userTypeInput" class="form-label">User Type:</label>
+            <select class="form-select" id="userTypeInput" required>
+              <option value="">Select user type</option>
+              <option value="provider">Content Provider</option>
+              <option value="seeker">Content Seeker</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="cityInput" class="form-label">City</label>
+            <input type="text" class="form-control" id="cityInput" placeholder="Enter city" required>
+          </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content">
+                <input class="form-check-input" type="checkbox" value=" " id="form2Example33" checked/>
+              <label class="form-check-label" for="form2Example33">
+                        Subscribe to our newsletter
+              </label>
+            </div>
+            <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">
+                          Sign up
+                        </button>
+          </form>
+                    </div>
+                </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+      </div>
+      </div> 
+                            <!-- <ul class="nav navbar-nav navbar-right ms-auto">
+                                 <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+
+                                 <li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                             </ul>-->
+                             
+                             <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#myModals">Sign In</button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModals" role="dialog">
+            <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" style="background-color:cornsilk">
+            <div class="modal-header">
+                <h4 class="modal-title">Sign In</h4>
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+             <div class="modal-body">
+            <div class="col-lg-6">
+            <h2 class="fw-bold mb-5">Sign In Now</h2>
+            <form>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example3">Email address</label>
+              <input type="email" id="form3Example3" class="form-control" />
+            </div>
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="form3Example4">Password</label>
+              <input type="password" id="form3Example4" class="form-control" />
+            </div>
+            <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4">
+                          Sign In
+                        </button>
+          </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-cornsilk" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.hashmicro.com/blog/wp-content/uploads/2022/10/ERP-for-schools-1.jpg" alt="First slide" height="500">
+             <div class="carousel-caption d-none d-md-block text-dark">
+                <p>“eLearning doesn't just "happen"! It requires careful planning and implementation.”</p>
+                 </div>
+                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/wi/art/615aea39021d1.jpeg" alt="Second slide" height="500">
+            </div>
+            <div class="carousel-item">
+        <img class="d-block w-100" src="https://markinstyle.co.uk/wp-content/uploads/2021/10/Educational-Technology.jpeg" alt="Third slide" height="500" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                        </div>
+                       <!-- <div class="col-md-2">
+                            <ul>
+                                <li>  “eLearning doesn't just "happen"! It requires careful planning and implementation.” - Anonymous</li>
+                                <li> “It’s time to step up to the plate and get passionate about your work commit to making eLearning courses that don't bore people to tears, but instead inspire and motivate them to learn a new skill, change a certain behavior, or improve their performance.” - Cammy Bean</li>
+                                <li>The most important principle for designing lively eLearning is to see eLearning design not as information design but as designing an experience.” - Cathy Moore</li>
+                            </ul>
+                        </div>-->
+                    </div>
+                </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card" style="width:450px">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz7l-rkHjSUDfH4EJe33Kfuc2Yc2dt3M43OQ&usqp=CAU" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+                              <div class="card" style="width:450px">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSs37ShxE9bg9U9VprBOPp67d1uNc774SUJhbuEURKJytyTSbD5NNf6nWE9e2_tte3W7A&usqp=CAU" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John bills</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+                              <div class="card" style="width:450px">
+                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbSBFCjFtfoi2NFiy0bjvM5SvxZwDjWnVHVcliuWcGYTjl6EyxfsDsj6GETIIC825ko_s&usqp=CAU" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">wills</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+                              <div class="card" style="width:450px">
+                <img class="card-img-top" src="https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2015/12/01/Pictures/_c34102da-9849-11e5-b4f4-1b7a09ed2cea.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+                </div>
+               
+            </div>
+
+    <!<!-- footer -->
+
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col" id="aboutid">
+                    <h5>About Us</h5>
+                    <p>pragraph</p>
+                </div>
+                <div class="col" id="contactid">
+                    <h5>Contact Us</h5>
+                    <address>
+                        Dasauli
+                        Kursi Road<br>
+                        Lucknow,Uttar Pradesh<br>
+                        <abbr title="Phone">Mob:-</abbr> +91 6207731012
+                    </address>
+                </div>
+                </div>
+             <div class="row">
+                        <div class="col text-center bg-dark">
+                     <p>&copy; 2023 OLP.html. All rights reserved.</p>
+                    </div>
+                </div>
+    </footer>
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
